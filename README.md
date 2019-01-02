@@ -34,6 +34,7 @@ dictionaries used.
 The top level directory contains properties file used by the package, as well as
 test files.
 
+
 ------------------------
 Usage
 ------------------------
@@ -45,6 +46,7 @@ All Python scripts should be run in the top level directory.
 - Predict new data
   python scripts/predict.py data/test.txt data/nn_predict_results.txt
   The arguments are the path of input and output file path.
+
 
 --------------------------------
 Note on Stanford CoreNLP package
