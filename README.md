@@ -40,7 +40,7 @@ Usage
 ------------------------
 All Python scripts should be run in the top level directory.
 - Generalization Test
-  python scripts/generalization_test.py
+  python scripts/generalization_test.py 
   You should be able to see the results of macro F1 of test data set is around 68% to 75%.
 
 - Predict new data
