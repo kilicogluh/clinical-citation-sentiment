@@ -1,0 +1,179 @@
+acceptance	POS
+according to	POS
+adequately	POS
+agree with	POS
+agreement with	POS
+agrees with	POS
+although	CONTRAST
+appealing	POS
+appreciate	POS
+awfully	NEG
+be attributed to	POS
+be compared with	POS
+be expected	POS
+better	POS
+burden	NEG
+but	CONTRAST
+by contrast	CONTRAST
+central	POS
+closely	POS
+coincided with	POS
+comparable with	POS
+competitive	POS
+complicated	NEG
+concordant with	POS
+concur with	POS
+concurs with	POS
+confirm	POS
+confirmed	POS
+confirms	POS
+conflict with	NEG
+considerable	POS
+consistent with	POS
+consistent	POS
+consistently	POS
+contradictory	NEG
+contrarily to	NEG
+contrast with	NEG
+contrasting	NEG
+contrasts with	NEG
+convenient	POS
+conversely	CONTRAST
+corroborate	POS
+current study	CITINGWORK
+deficiencies	NEG
+despite	CONTRAST
+devoid	NEGATION
+differ from	NEG
+differ	NEG
+differed from	NEG
+differed	NEG
+different from	NEG
+different to	NEG
+differently to	NEG
+difficult to interpret	NEG
+difficult	NEG
+disagree with	NEG
+discrepancy with	NEG
+dominant	POS
+dramatically	POS
+easier	POS
+easy	POS
+effective	POS
+effectiveness	POS
+efficient	POS
+efficiently	POS
+even though	CONTRAST
+evidence	POS
+excellent	POS
+explained by	POS
+faster	POS
+favorably	POS
+firm	POS
+good	POS
+high compared to	NEG
+higher than	NEG
+higher	COMPARATIVE
+however	CONTRAST
+impossible comparisons	NEG
+improve	POS
+improvements	POS
+in accordance to	POS
+in accordance with	POS
+in agreement with	POS
+in contrast to	NEG
+in contrast with	NEG
+in contrast	CONTRAST
+in keeping with 	POS
+in line with	POS
+in partial agreement with	POS
+inability	NEG
+inadequate	NEG
+inexpensive	POS
+inferior	COMPARATIVE
+interesting	POS
+is contradictory to	NEG
+lack	NEG
+lacked	NEG
+less clear	NEG
+less effective	NEG
+limited	NEG
+low compared to	NEG
+lower than	NEG
+most important	POS
+neither	NEGATION
+never	NEGATION
+nevertheless	CONTRAST
+no	NEGATION
+nobody	NEGATION
+none	NEGATION
+nonetheless	CONTRAST
+not compare	NEG
+not confirm	NEG
+not observe	NEG
+not reliable	NEG
+not result in	NEG
+not significant	NEG
+not significantly	NEG
+not	NEGATION
+nothing	NEGATION
+n't	NEGATION
+on the contrary	CONTRAST
+our data	CITINGWORK
+our finding	CITINGWORK
+our findings	CITINGWORK
+our result	CITINGWORK
+our results	CITINGWORK
+our study	CITINGWORK
+our work	CITINGWORK
+overcome	POS
+parallel with	POS
+poor	NEG
+popular	POS
+positive	POS
+predominantly	POS
+preferable	POS
+preferred	POS
+present study	CITINGWORK
+reasonable	POS
+regardless	CONTRAST
+replicated	POS
+risk of	NEG
+robust	POS
+satisfactory	POS
+shown to	POS
+significant increases	POS
+significantly better	POS
+significantly less	NEG
+similar observations	POS
+similar to	POS
+similarly to	POS
+simpler	POS
+substantially	POS
+successful	POS
+successfully	POS
+suitable	POS
+superior	COMPARATIVE
+support	POS
+supported by	POS
+supported	POS
+supports	POS
+surprisingly	NEG
+than	THAN
+the opposite of	NEG
+these data	CITINGWORK
+these values	CITINGWORK
+this study	CITINGWORK
+this work	CITINGWORK
+though	CONTRAST
+unexpected	NEG
+unlike	NEG
+we	CITINGWORK
+well known	POS
+well-known	POS
+whereas	CONTRAST
+while	CONTRAST
+widely known	POS
+widely used	POS
+without	NEGATION
+worse	NEG

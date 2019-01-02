@@ -1,0 +1,165 @@
+---------- Sample 1 ----------
+test.txt_C1_[14]_NONE_ IP strength H has a high mistletoe lectin (ML) content of about 5300 ng/ml [14].
+ContextUnigram(cat)=[-L, -R, ., CD, DT, IN, JJ, NN, VB, [TC]]
+ContextBigram(cat)=[-L__NN, -R__NN, CD__NN, DT__JJ, IN__CD, IN__IN, JJ__NN, NN__-L, NN__-R, NN__IN, NN__NN, NN__VB, NN__[TC], VB__DT, [TC]__.]
+ContextTrigram(cat)=[-L__NN__-R, -R__NN__IN, CD__NN__[TC], DT__JJ__NN, IN__CD__NN, IN__IN__CD, JJ__NN__NN, NN__-L__NN, NN__-R__NN, NN__IN__IN, NN__NN__-L, NN__NN__NN, NN__NN__VB, NN__VB__DT, NN__[TC]__., VB__DT__JJ]
+NegationCount=0.0
+NegationNGramUnigram(stemmed)=[]
+PosSentiment=FALSE
+NegSentiment=FALSE
+AnySentiment=FALSE
+StructureUnigram=[[TC]]
+StructureBigram=[]
+StructureTrigram=[]
+StructureDirection=[]
+RuleBasedOutput=NEUTRAL
+---------- Sample 2 ----------
+test.txt_C2_[18]_NONE_ Because ML are responsible for the most dominant immunological effects of mistletoe preparations in vivo [18], our results are most likely also transferable to other mistletoe preparations with related ML-content.
+ContextUnigram(cat)=[,, ., DT, FW, IN, JJ, NN, PR, RB, TO, VB, [TC]]
+ContextBigram(cat)=[,__PR, DT__RB, FW__FW, FW__[TC], IN__DT, IN__JJ, IN__NN, JJ__IN, JJ__JJ, JJ__NN, JJ__RB, JJ__TO, NN__., NN__FW, NN__IN, NN__NN, NN__VB, PR__NN, RB__JJ, TO__JJ, VB__JJ, VB__RB, [TC]__,]
+ContextTrigram(cat)=[,__PR__NN, DT__RB__JJ, FW__FW__[TC], FW__[TC]__,, IN__DT__RB, IN__JJ__NN, IN__NN__NN, IN__NN__VB, JJ__IN__DT, JJ__JJ__NN, JJ__NN__., JJ__NN__IN, JJ__NN__NN, JJ__RB__JJ, JJ__TO__JJ, NN__FW__FW, NN__IN__JJ, NN__IN__NN, NN__NN__FW, NN__NN__IN, NN__VB__JJ, NN__VB__RB, PR__NN__VB, RB__JJ__JJ, RB__JJ__RB, RB__JJ__TO, TO__JJ__NN, VB__JJ__IN, VB__RB__JJ, [TC]__,__PR]
+NegationCount=0.0
+NegationNGramUnigram(stemmed)=[]
+PosSentiment=TRUE
+NegSentiment=FALSE
+AnySentiment=TRUE
+StructureUnigram=[CITINGWORK, POS, [TC]]
+StructureBigram=[POS__[TC], [TC]__CITINGWORK]
+StructureTrigram=[POS__[TC]__CITINGWORK]
+StructureDirection=[]
+RuleBasedOutput=NEUTRAL
+---------- Sample 3 ----------
+test.txt_C3_[24-26]_NONE_ Other smaller studies investigating other mistletoe preparations are in accordance with our findings ([24-26], for review see [27]).
+ContextUnigram(cat)=[,, -L, -R, ., IN, JJ, NN, PR, VB, [OC], [TC]]
+ContextBigram(cat)=[,__IN, -L__[TC], -R__., IN__NN, IN__PR, JJ__JJ, JJ__NN, NN__-L, NN__IN, NN__NN, NN__VB, PR__NN, VB__IN, VB__JJ, VB__[OC], [OC]__-R, [TC]__,]
+ContextTrigram(cat)=[,__IN__NN, -L__[TC]__,, IN__NN__IN, IN__NN__VB, IN__PR__NN, JJ__JJ__NN, JJ__NN__NN, JJ__NN__VB, NN__-L__[TC], NN__IN__PR, NN__NN__VB, NN__VB__IN, NN__VB__JJ, NN__VB__[OC], PR__NN__-L, VB__IN__NN, VB__JJ__NN, VB__[OC]__-R, [OC]__-R__., [TC]__,__IN]
+NegationCount=0.0
+NegationNGramUnigram(stemmed)=[]
+PosSentiment=TRUE
+NegSentiment=FALSE
+AnySentiment=TRUE
+StructureUnigram=[CITINGWORK, POS, [OC], [TC]]
+StructureBigram=[CITINGWORK__[TC], POS__CITINGWORK, [TC]__[OC]]
+StructureTrigram=[CITINGWORK__[TC]__[OC], POS__CITINGWORK__[TC]]
+StructureDirection=[]
+RuleBasedOutput=POSITIVE
+---------- Sample 4 ----------
+test.txt_C4_[27]_NONE_ Other smaller studies investigating other mistletoe preparations are in accordance with our findings ([24-26], for review see [27]).
+ContextUnigram(cat)=[,, -L, -R, ., IN, JJ, NN, PR, VB, [OC], [TC]]
+ContextBigram(cat)=[,__IN, -L__[OC], -R__., IN__NN, IN__PR, JJ__JJ, JJ__NN, NN__-L, NN__IN, NN__NN, NN__VB, PR__NN, VB__IN, VB__JJ, VB__[TC], [OC]__,, [TC]__-R]
+ContextTrigram(cat)=[,__IN__NN, -L__[OC]__,, IN__NN__IN, IN__NN__VB, IN__PR__NN, JJ__JJ__NN, JJ__NN__NN, JJ__NN__VB, NN__-L__[OC], NN__IN__PR, NN__NN__VB, NN__VB__IN, NN__VB__JJ, NN__VB__[TC], PR__NN__-L, VB__IN__NN, VB__JJ__NN, VB__[TC]__-R, [OC]__,__IN, [TC]__-R__.]
+NegationCount=0.0
+NegationNGramUnigram(stemmed)=[]
+PosSentiment=TRUE
+NegSentiment=FALSE
+AnySentiment=TRUE
+StructureUnigram=[CITINGWORK, POS, [OC], [TC]]
+StructureBigram=[CITINGWORK__[OC], POS__CITINGWORK, [OC]__[TC]]
+StructureTrigram=[CITINGWORK__[OC]__[TC], POS__CITINGWORK__[OC]]
+StructureDirection=[]
+RuleBasedOutput=POSITIVE
+---------- Sample 5 ----------
+test.txt_C5_[25]_NONE_ For example in 8 breast cancer patients 10 weeks subcutaneous treatment with 0.2 mg/30 kg of the mistletoe preparation AbnobaViscum Mali (approximately 75 ng/ml/30 kg ML) did not result in systematic changes of IL-6 concentration in supernatants of un-stimulated and stimulated peripheral mononuclear cells before and during treatment compared to baseline [25].
+ContextUnigram(cat)=[-L, -R, ., CC, CD, DT, IN, JJ, NN, RB, TO, VB, [TC]]
+ContextBigram(cat)=[-L__RB, -R__VB, CC__IN, CC__VB, CD__NN, DT__NN, IN__CC, IN__CD, IN__DT, IN__JJ, IN__NN, JJ__CC, JJ__JJ, JJ__NN, NN__-L, NN__-R, NN__CD, NN__IN, NN__JJ, NN__NN, NN__VB, NN__[TC], RB__CD, RB__VB, TO__NN, VB__IN, VB__JJ, VB__RB, VB__TO, [TC]__.]
+ContextTrigram(cat)=[-L__RB__CD, -R__VB__RB, CC__IN__NN, CC__VB__JJ, CD__NN__JJ, CD__NN__NN, DT__NN__NN, IN__CC__IN, IN__CD__NN, IN__DT__NN, IN__JJ__CC, IN__JJ__NN, IN__NN__IN, IN__NN__NN, IN__NN__VB, JJ__CC__VB, JJ__JJ__NN, JJ__NN__IN, NN__-L__RB, NN__-R__VB, NN__CD__NN, NN__IN__CC, NN__IN__CD, NN__IN__DT, NN__IN__JJ, NN__IN__NN, NN__JJ__NN, NN__NN__-L, NN__NN__-R, NN__NN__CD, NN__NN__IN, NN__NN__NN, NN__VB__TO, NN__[TC]__., RB__CD__NN, RB__VB__IN, TO__NN__[TC], VB__IN__JJ, VB__JJ__JJ, VB__RB__VB, VB__TO__NN]
+NegationCount=0.0
+NegationNGramUnigram(stemmed)=[]
+PosSentiment=FALSE
+NegSentiment=TRUE
+AnySentiment=TRUE
+StructureUnigram=[NEG, [TC]]
+StructureBigram=[NEG__[TC]]
+StructureTrigram=[]
+StructureDirection=[]
+RuleBasedOutput=NEUTRAL
+---------- Sample 6 ----------
+test.txt_C6_[12,16-21]_NONE_ Although previous reports have found that nebulized epinephrine results in short-term clinical improvement in bronchiolitis [12,16-21], its effect on duration of hospital stay or need for admission is less clear.
+ContextUnigram(cat)=[,, ., CC, IN, JJ, NN, PR, RB, VB, [TC]]
+ContextBigram(cat)=[,__PR, CC__VB, IN__JJ, IN__NN, JJ__., JJ__JJ, JJ__NN, NN__CC, NN__IN, NN__NN, NN__VB, NN__[TC], PR__NN, RB__JJ, VB__IN, VB__RB, VB__VB, [TC]__,]
+ContextTrigram(cat)=[,__PR__NN, CC__VB__IN, IN__JJ__JJ, IN__JJ__NN, IN__NN__IN, IN__NN__NN, IN__NN__VB, IN__NN__[TC], JJ__JJ__NN, JJ__NN__IN, JJ__NN__VB, NN__CC__VB, NN__IN__NN, NN__NN__CC, NN__VB__IN, NN__VB__RB, NN__VB__VB, NN__[TC]__,, PR__NN__IN, RB__JJ__., VB__IN__JJ, VB__IN__NN, VB__RB__JJ, VB__VB__IN, [TC]__,__PR]
+NegationCount=0.0
+NegationNGramUnigram(stemmed)=[]
+PosSentiment=FALSE
+NegSentiment=TRUE
+AnySentiment=TRUE
+StructureUnigram=[CONTRAST, NEG, [TC]]
+StructureBigram=[CONTRAST__[TC], [TC]__NEG]
+StructureTrigram=[CONTRAST__[TC]__NEG]
+StructureDirection=[CONTRAST_[TC]_DIR]
+RuleBasedOutput=NEUTRAL
+---------- Sample 7 ----------
+test.txt_C7_[12,19]_NONE_ Two of four randomised clinical trials in the emergency department setting using 1 to 3 doses of epinephrine have found a difference in admission rate [12,19] and two have not [22,23].
+ContextUnigram(cat)=[., CC, CD, DT, IN, JJ, NN, RB, TO, VB, [OC], [TC]]
+ContextBigram(cat)=[CC__CD, CD__IN, CD__JJ, CD__NN, CD__TO, CD__VB, DT__NN, IN__CD, IN__DT, IN__NN, JJ__JJ, JJ__NN, NN__IN, NN__NN, NN__VB, NN__[TC], RB__[OC], TO__CD, VB__CD, VB__DT, VB__RB, VB__VB, [OC]__., [TC]__CC]
+ContextTrigram(cat)=[CC__CD__VB, CD__IN__CD, CD__JJ__JJ, CD__NN__IN, CD__TO__CD, CD__VB__RB, DT__NN__IN, DT__NN__NN, IN__CD__JJ, IN__DT__NN, IN__NN__NN, IN__NN__VB, JJ__JJ__NN, JJ__NN__IN, NN__IN__DT, NN__IN__NN, NN__NN__NN, NN__NN__VB, NN__NN__[TC], NN__VB__CD, NN__VB__VB, NN__[TC]__CC, RB__[OC]__., TO__CD__NN, VB__CD__TO, VB__DT__NN, VB__RB__[OC], VB__VB__DT, [TC]__CC__CD]
+NegationCount=1.0
+NegationNGramUnigram(stemmed)=[NOT_., NOT_[OC]]
+PosSentiment=FALSE
+NegSentiment=FALSE
+AnySentiment=FALSE
+StructureUnigram=[NEGATION, [OC], [TC]]
+StructureBigram=[NEGATION__[OC], [TC]__NEGATION]
+StructureTrigram=[[TC]__NEGATION__[OC]]
+StructureDirection=[]
+RuleBasedOutput=NEUTRAL
+---------- Sample 8 ----------
+test.txt_C8_[22,23]_NONE_ Two of four randomised clinical trials in the emergency department setting using 1 to 3 doses of epinephrine have found a difference in admission rate [12,19] and two have not [22,23].
+ContextUnigram(cat)=[., CC, CD, DT, IN, JJ, NN, RB, TO, VB, [OC], [TC]]
+ContextBigram(cat)=[CC__CD, CD__IN, CD__JJ, CD__NN, CD__TO, CD__VB, DT__NN, IN__CD, IN__DT, IN__NN, JJ__JJ, JJ__NN, NN__IN, NN__NN, NN__VB, NN__[OC], RB__[TC], TO__CD, VB__CD, VB__DT, VB__RB, VB__VB, [OC]__CC, [TC]__.]
+ContextTrigram(cat)=[CC__CD__VB, CD__IN__CD, CD__JJ__JJ, CD__NN__IN, CD__TO__CD, CD__VB__RB, DT__NN__IN, DT__NN__NN, IN__CD__JJ, IN__DT__NN, IN__NN__NN, IN__NN__VB, JJ__JJ__NN, JJ__NN__IN, NN__IN__DT, NN__IN__NN, NN__NN__NN, NN__NN__VB, NN__NN__[OC], NN__VB__CD, NN__VB__VB, NN__[OC]__CC, RB__[TC]__., TO__CD__NN, VB__CD__TO, VB__DT__NN, VB__RB__[TC], VB__VB__DT, [OC]__CC__CD]
+NegationCount=1.0
+NegationNGramUnigram(stemmed)=[NOT_., NOT_[TC]]
+PosSentiment=FALSE
+NegSentiment=FALSE
+AnySentiment=FALSE
+StructureUnigram=[NEGATION, [OC], [TC]]
+StructureBigram=[NEGATION__[TC], [OC]__NEGATION]
+StructureTrigram=[[OC]__NEGATION__[TC]]
+StructureDirection=[]
+RuleBasedOutput=NEUTRAL
+---------- Sample 9 ----------
+test.txt_C9_[24]_NONE_ Our study is only the second [24] in which nebulized racemic epinephrine was provided throughout the hospital admission.
+ContextUnigram(cat)=[., DT, IN, JJ, NN, PR, RB, VB, WD, [TC]]
+ContextBigram(cat)=[DT__JJ, DT__NN, IN__DT, IN__WD, JJ__JJ, JJ__NN, JJ__[TC], NN__., NN__NN, NN__VB, PR__NN, RB__DT, VB__IN, VB__RB, VB__VB, WD__JJ, [TC]__IN]
+ContextTrigram(cat)=[DT__JJ__[TC], DT__NN__NN, IN__DT__NN, IN__WD__JJ, JJ__JJ__NN, JJ__NN__VB, JJ__[TC]__IN, NN__NN__., NN__VB__RB, NN__VB__VB, PR__NN__VB, RB__DT__JJ, VB__IN__DT, VB__RB__DT, VB__VB__IN, WD__JJ__JJ, [TC]__IN__WD]
+NegationCount=0.0
+NegationNGramUnigram(stemmed)=[]
+PosSentiment=FALSE
+NegSentiment=FALSE
+AnySentiment=FALSE
+StructureUnigram=[CITINGWORK, [TC]]
+StructureBigram=[CITINGWORK__[TC]]
+StructureTrigram=[]
+StructureDirection=[]
+RuleBasedOutput=NEUTRAL
+---------- Sample 10 ----------
+test.txt_C10_[20,21]_NONE_ Two [20,21] of four randomised trials [24,25] have suggested that length of stay in hospital is abbreviated in children receiving epinephrine.
+ContextUnigram(cat)=[., CD, IN, JJ, NN, VB, [OC], [TC]]
+ContextBigram(cat)=[CD__JJ, CD__[TC], IN__CD, IN__NN, JJ__NN, NN__., NN__IN, NN__VB, NN__[OC], VB__IN, VB__NN, VB__VB, [OC]__VB, [TC]__IN]
+ContextTrigram(cat)=[CD__JJ__NN, CD__[TC]__IN, IN__CD__JJ, IN__NN__IN, IN__NN__VB, JJ__NN__[OC], NN__IN__NN, NN__VB__NN, NN__VB__VB, NN__[OC]__VB, VB__IN__NN, VB__NN__., VB__VB__IN, [OC]__VB__VB, [TC]__IN__CD]
+NegationCount=0.0
+NegationNGramUnigram(stemmed)=[]
+PosSentiment=FALSE
+NegSentiment=FALSE
+AnySentiment=FALSE
+StructureUnigram=[[OC], [TC]]
+StructureBigram=[[TC]__[OC]]
+StructureTrigram=[]
+StructureDirection=[]
+RuleBasedOutput=NEUTRAL
+---------- Sample 11 ----------
+test.txt_C11_[24,25]_NONE_ Two [20,21] of four randomised trials [24,25] have suggested that length of stay in hospital is abbreviated in children receiving epinephrine.
+ContextUnigram(cat)=[., CD, IN, JJ, NN, VB, [OC], [TC]]
+ContextBigram(cat)=[CD__JJ, CD__[OC], IN__CD, IN__NN, JJ__NN, NN__., NN__IN, NN__VB, NN__[TC], VB__IN, VB__NN, VB__VB, [OC]__IN, [TC]__VB]
+ContextTrigram(cat)=[CD__JJ__NN, CD__[OC]__IN, IN__CD__JJ, IN__NN__IN, IN__NN__VB, JJ__NN__[TC], NN__IN__NN, NN__VB__NN, NN__VB__VB, NN__[TC]__VB, VB__IN__NN, VB__NN__., VB__VB__IN, [OC]__IN__CD, [TC]__VB__VB]
+NegationCount=0.0
+NegationNGramUnigram(stemmed)=[]
+PosSentiment=FALSE
+NegSentiment=FALSE
+AnySentiment=FALSE
+StructureUnigram=[[OC], [TC]]
+StructureBigram=[[OC]__[TC]]
+StructureTrigram=[]
+StructureDirection=[]
+RuleBasedOutput=NEUTRAL
