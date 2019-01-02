@@ -40,11 +40,13 @@ Usage
 ------------------------
 All Python scripts should be run in the top level directory.
 - Generalization Test
+
   python scripts/generalization_test.py
   
   You should be able to see the results of macro F1 of test data set is around 68% to 75%.
 
 - Predict new data
+  
   python scripts/predict.py data/test.txt data/nn_predict_results.txt
 
   The arguments are the path of input and output file path.
