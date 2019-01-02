@@ -1,0 +1,189 @@
+limited	BAD		limited(JJ)	1	0	7	0.125
+have demonstrated	NA		have(VB) demonstrate(VB)	0	0	22	0
+statistically significant improvements	pos word		statistically(RB) significant(JJ) improvement(NN)	1	0	0	1
+solution	SOLUTION		solution(NN)	1	0	9	0.1
+remained controversial	neg word		remain(VB) controversial(JJ)	0	1	0	-1
+significant reduction	CATME		significant(JJ) reduction(NN)	4	2	11	0.166666667
+support			support(NN)	5	1	11	0.333333333
+failed to detect	neg word		fail(VB) to(TO) detect(VB)	2	1	4	0.2
+however	discourse		however(RB)	17	36	112	-0.168141593
+corroborate			corroborate(VB)	4	0	0	4
+in accordance with			in(IN) accordance(NN) with(IN)	17	0	1	8.5
+consistent with	CATME		consistent(JJ) with(IN)	65	2	1	31.5
+also was done	pos word		also(RB) be(VB) do(VB)	1	0	0	1
+positive correlation			positive(JJ) correlation(NN)	2	0	3	0.5
+similar to			similar(JJ) to(TO)	51	2	5	8.166666667
+best	COMPARISON/CONTRAST		best(RB)	1	0	1	0.5
+unlike previous findings	neg word		unlike(IN) previous(JJ) finding(NN)	0	1	0	-1
+was not a significant explanatory	negation		be(VB) not(RB) a(DT) significant(JJ) explanatory(JJ)	0	1	0	-1
+supported by	CATME		support(VB) by(IN)	13	0	2	4.333333333
+a particular concern	neg word		a(DT) particular(JJ) concern(NN)	0	0	1	0
+did not confirm	negation		do(VB) not(RB) confirm(VB)	1	1	0	0
+impossible	BAD		impossible(JJ)	1	0	0	1
+contrast to	CATME		contrast(NN) to(TO)	0	0	0	0
+did not show a significant difference	negation		do(VB) not(RB) show(VB) a(DT) significant(JJ) difference(NN)	0	1	0	-1
+demonstrate	SOLUTION		demonstrate(VB)	13	8	45	0.108695652
+opposite	neg word		opposite(JJ)	1	0	0	1
+comparable to			comparable(JJ) to(TO)	9	0	3	2.25
+contrarily to our observation	neg word		contrarily(RB) to(TO) we(PR) observation(NN)	0	1	0	-1
+unclear	neg word		unclear(JJ)	0	2	5	-0.333333333
+being fully on a par	pos word		be(VB) fully(RB) on(IN) a(DT) par(NN)	1	0	0	1
+despite	discourse		despite(IN)	2	3	19	-0.05
+while in another study	neg word		while(IN) in(IN) another(DT) study(NN)	0	1	0	-1
+further study is needed	neg word		further(JJ) study(NN) be(VB) need(VB)	0	1	0	-1
+strengthens the validity of findings	pos word		strengthen(VB) the(DT) validity(NN) of(IN) finding(NN)	1	0	0	1
+failed to confirm	neg word		fail(VB) to(TO) confirm(VB)	0	0	0	0
+as in this study	pos word		as(IN) in(IN) this(DT) study(NN)	1	0	0	1
+differently to			differently(RB) to(TO)	0	1	0	-1
+to contrast	neg word		to(TO) contrast(NN)	0	1	0	-1
+did not reach statistic significance	negation		do(VB) not(RB) reach(VB) statistic(NN) significance(NN)	0	0	0	0
+was not very effective	negation		be(VB) not(RB) very(RB) effective(JJ)	0	1	0	-1
+make impossible	neg word		make(VB) impossible(JJ)	0	1	0	-1
+according to	pos word		accord(VB) to(TO)	15	2	22	0.565217391
+significantly lowered	comparative		significantly(RB) lower(VB)	0	0	0	0
+similar observations	pos word		similar(JJ) observation(NN)	3	0	0	3
+in parallel with			in(IN) parallel(NN) with(IN)	1	0	1	0.5
+as has been observed			as(IN) have(VB) be(VB) observe(VB)	1	1	0	0
+support the finding			support(VB) the(DT) finding(NN)	1	0	0	1
+unlike our			unlike(IN) we(PR)	0	0	0	0
+did not find	negation		do(VB) not(RB) find(VB)	2	2	6	0
+has not demonstrated any effect	negation		have(VB) not(RB) demonstrate(VB) any(DT) effect(NN)	0	2	0	-2
+recommend	pos word		recommend(VB)	8	1	37	0.184210526
+failed to find	neg word		fail(VB) to(TO) find(VB)	0	0	0	0
+did not show a significant influence	negation		do(VB) not(RB) show(VB) a(DT) significant(JJ) influence(NN)	0	1	0	-1
+limited its ability to draw strong conclusion	neg word		limit(VB) its(PR) ability(NN) to(TO) draw(VB) strong(JJ) conclusion(NN)	0	1	0	-1
+not so convincing and do not show crucial differences	negation		not(RB) so(RB) convincing(JJ) and(CC) do(VB) not(RB) show(VB) crucial(JJ) difference(NN)	0	1	0	-1
+like our			like(IN) we(PR)	1	0	0	1
+non-significant decline	neg word		non-significant(JJ) decline(NN)	0	1	1	-0.5
+did not clarify	negation		do(VB) not(RB) clarify(VB)	0	0	0	0
+were not analysed	negation		be(VB) not(RB) analyse(VB)	0	1	0	-1
+did not differ			do(VB) not(RB) differ(VB)	0	0	5	0
+might only be effective	modal		might(MD) only(RB) be(VB) effective(JJ)	0	1	0	-1
+could not confirm	negation		could(MD) not(RB) confirm(VB)	0	2	0	-2
+does not affect	negation		do(VB) not(RB) affect(VB)	0	1	9	-0.1
+positive	GOOD		positive(JJ)	12	2	47	0.208333333
+this positive effect	pos word		this(DT) positive(JJ) effect(NN)	1	0	0	1
+compares favorably	comparative		compare(VB) favorably(RB)	3	1	0	2
+conflict with	neg word		conflict(NN) with(IN)	0	0	0	0
+reflect			reflect(VB)	6	1	20	0.238095238
+worse outcomes	comparative		worse(JJ) outcome(NN)	0	1	2	-0.333333333
+progress	RESULT		progress(NN)	1	0	5	0.166666667
+has not been supported	negation		have(VB) not(RB) be(VB) support(VB)	0	0	0	0
+significantly higher	comparative		significantly(RB) higher(JJ)	1	1	6	0
+inferior	COMPARISON/CONTRAST		inferior(JJ)	0	0	3	0
+support a positive	pos word		support(VB) a(DT) positive(JJ)	0	0	0	0
+partial agreement with	pos word		partial(JJ) agreement(NN) with(IN)	1	0	0	1
+safer than	comparative		safer(JJ) than(IN)	0	0	0	0
+likewise	pos word		likewise(RB)	3	0	2	1
+although	discourse		although(IN)	9	24	65	-0.227272727
+correct	GOOD		correct(JJ)	0	0	1	0
+poorly understood	neg word		poorly(RB) understand(VB)	0	0	1	0
+comparable	pos word		comparable(JJ)	5	0	6	0.714285714
+is not consistent	negation		be(VB) not(RB) consistent(JJ)	0	1	0	-1
+differed from	comparative		differ(VB) from(IN)	0	5	1	-2.5
+further clarification	neg word		further(JJ) clarification(NN)	0	0	0	0
+similar benefits	pos word		similar(JJ) benefit(NN)	1	0	0	1
+not observe any significant			not(RB) observe(VB) any(DT) significant(JJ)	0	1	0	-1
+smaller	comparative		smaller(JJ)	5	2	2	1
+similar	pos word		similar(JJ)	56	4	27	1.857142857
+nevertheless	discourse		nevertheless(RB)	2	2	12	0
+reported no significant			report(VB) no(DT) significant(JJ)	1	1	2	0
+benefit	SOLUTION		benefit(NN)	12	5	52	0.132075472
+whereas	discourse		whereas(IN)	2	10	21	-0.363636364
+inferior to	comparative		inferior(JJ) to(TO)	1	1	1	0
+similarly	pos word		similarly(RB)	15	0	8	1.666666667
+sufficient	GOOD		sufficient(JJ)	2	3	8	-0.111111111
+correlated with	NA		correlate(VB) with(IN)	7	0	13	0.5
+differ somewhat			differ(VB) somewhat(RB)	0	1	0	-1
+did not observe	negation		do(VB) not(RB) observe(VB)	1	4	1	-1.5
+concordant with	pos word		concordant(JJ) with(IN)	1	0	1	0.5
+comparatively lower	comparative		comparatively(RB) lower(JJ)	0	1	0	-1
+yield	SOLUTION		yield(VB)	1	0	3	0.25
+concurs	pos word		concur(VB)	1	0	0	1
+in line with			in(IN) line(NN) with(IN)	17	0	3	4.25
+do not support	negation		do(VB) not(RB) support(VB)	0	1	1	-0.5
+contrasts with	neg word		contrast(VB) with(IN)	0	3	0	-3
+unlike past studies	neg word		unlike(IN) past(JJ) study(NN)	0	1	0	-1
+consistently well-documented	pos word		consistently(RB) well-documented(JJ)	1	0	0	1
+faced difficulty	neg word		face(VB) difficulty(NN)	0	1	0	-1
+relatively low	comparative		relatively(RB) low(JJ)	0	1	3	-0.25
+disagree with	neg word		disagree(VB) with(IN)	0	1	0	-1
+available	TRAD		available(JJ)	3	1	34	0.057142857
+contradicts	neg word		contradict(VB)	0	1	0	-1
+alternative	CHANGE		alternative(NN)	1	0	7	0.125
+relatively better	comparative		relatively(RB) better(RB)	0	1	0	-1
+lack of record	neg word		lack(NN) of(IN) record(NN)	0	1	0	-1
+this is in line with previous studies	pos word		this(DT) be(VB) in(IN) line(NN) with(IN) previous(JJ) study(NN)	3	0	0	3
+support the theory that			support(VB) the(DT) theory(NN) that(WD)	0	0	0	0
+unlike the present study	neg word		unlike(IN) the(DT)) present(JJ) study(NN)	0	0	0	0
+superior to	comparative		superior(JJ) to(TO)	1	0	3	0.25
+moderate correlations	pos word		moderate(JJ) correlation(NN)	2	0	0	2
+strong evidence			strong(JJ) evidence(NN)	1	0	0	1
+contradictory	neg word		contradictory(JJ)	0	1	1	-0.5
+achieve	SOLUTION		achieve(VB)	11	4	29	0.233333333
+limitation	neg word		limitation(NN)	2	1	16	0.058823529
+unlike	neg word		unlike(IN)	1	1	6	0
+concur with			concur(VB) with(IN)	8	0	0	8
+observe no significant difference			observe(VB) no(DT) significant(JJ) difference(NN)	0	0	2	0
+little impact	neg word		little(JJ) impact(NN)	0	1	1	-0.5
+cannot be considered	negation		can(MD) not(RB) be(VB) consider(VB)	0	1	0	-1
+successful	GOOD		successful(JJ)	1	1	10	0
+had no significant effect	negation		have(VB) no(DT) significant(JJ) effect(NN)	1	2	1	-0.5
+was not even a trend	negation		be(VB) not(RB) even(RB) a(DT) trend(NN)	0	0	0	0
+right	GOOD		right(JJ)	0	0	3	0
+did not report	negation		do(VB) not(RB) report(VB)	0	1	2	-0.333333333
+could not improve	negation		could(MD) not(RB) improve(VB)	0	0	0	0
+unlike other studies	neg word		unlike(IN) other(JJ) study(NN)	0	1	0	-1
+relatively higher	comparative		relatively(RB) higher(JJ)	0	2	0	-2
+in contrast with			in(IN) contrast(NN) with(IN)	0	2	0	-2
+the success rate	CATME		the(DT) success(NN) rate(NN)	2	0	1	1
+inaccuracies	neg word		inaccuracy(NN)	0	1	0	-1
+was not significant	negation		be(VB) not(RB) significant(JJ)	0	1	2	-0.333333333
+adequate	GOOD		adequate(JJ)	2	0	7	0.25
+confirmed by			confirm(VB) by(IN)	3	0	2	1
+found no correlation	negation		find(VB) no(DT) correlation(NN)	0	2	0	-2
+though	discourse		though(IN)	1	1	22	0
+on the other hand	neg word		on(IN) the(DT) other(JJ) hand(NN)	0	3	11	-0.25
+conflicting results	neg word		conflicting(JJ) result(NN)	0	0	3	0
+had no beneficial effect	negation		have(VB) no(DT) beneficial(JJ) effect(NN)	0	0	0	0
+no improvement	negation		no(DT) improvement(NN)	0	1	2	-0.333333333
+failure rate	neg word		failure(NN) rate(NN)	5	1	2	1.333333333
+reliable	GOOD		reliable(JJ)	2	0	20	0.095238095
+demonstrated that	NA		demonstrate(VB) that(IN)	5	1	34	0.114285714
+no cause and effect	negation		no(DT) cause(NN) and(CC) effect(NN)	0	0	0	0
+failed to show	neg word		fail(VB) to(TO) show(VB)	0	2	6	-0.285714286
+did not favor	negation		do(VB) not(RB) favor(VB)	0	1	0	-1
+significant difference	NA		significant(JJ) difference(NN)	2	8	18	-0.315789474
+reject	neg word		reject(VB)	0	2	1	-1
+was not statistically significant	negation		be(VB) not(RB) statistically(RB) significant(JJ)	0	1	1	-0.5
+did not show	negation		do(VB) not(RB) show(VB)	2	4	1	-1
+non-successful			non-successful(JJ)	0	0	0	0
+have not been consistent	negation		have(VB) not(RB) be(VB) consistent(JJ)	0	2	0	-2
+did not greatly affect the impact	negation		do(VB) not(RB) greatly(RB) affect(VB) the(DT) impact(NN)	0	1	0	-1
+comparable with			comparable(JJ) with(IN)	7	0	3	1.75
+in contrast to			in(IN) contrast(NN) to(TO)	0	10	4	-2
+in agreement with	pos word		in(IN) agreement(NN) with(IN)	23	0	0	23
+objections	neg word		objection(NN)	0	1	0	-1
+was not associated	negation		be(VB) not(RB) associate(VB)	2	1	2	0.333333333
+consistent	pos word		consistent(JJ)	2	1	6	0.142857143
+contrast	COMPARISON/CONTRAST		contrast(NN)	1	0	8	0.111111111
+appropriate	GOOD		appropriate(JJ)	2	1	9	0.1
+in contrary	neg word		in(IN) contrary(JJ)	0	0	0	0
+discrepancy	neg word		discrepancy(NN)	1	2	4	-0.2
+nonetheless	discourse		nonetheless(RB)	1	0	2	0.333333333
+confirm	pos word		confirm(VB)	18	0	13	1.285714286
+convincing	GOOD		convincing(JJ)	0	0	0	0
+might solve this problem	pos word		might(MD) solve(VB) this(DT) problem(NN)	2	0	0	2
+difficult to interpret	neg word		difficult(JJ) to(TO) interpret(VB)	0	1	0	-1
+promising	GOOD		promise(VB)	0	1	0	-1
+no such case was recorded	negation		no(DT) such(JJ) case(NN) be(VB) record(VB)	0	1	0	-1
+this would be in line	pos word		this(DT) would(MD) be(VB) in(IN) line(NN)	1	0	0	1
+lack of beneficial effects	neg word		lack(NN) of(IN) beneficial(JJ) effect(NN)	1	0	0	1
+support the notion			support(VB) the(DT) notion(NN)	1	0	1	0.5
+in contrast	discourse		in(IN) contrast(NN)	1	3	8	-0.222222222
+somewhat lower rate	neg word		somewhat(RB) lower(JJ) rate(NN)	0	1	0	-1
+prove	SOLUTION		prove(VB)	4	0	16	0.235294118
+favorable	GOOD		favorable(JJ)	3	1	9	0.2
+have reported likewise	pos word		have(VB) report(VB) likewise(RB)	1	0	0	1
+in cooperation	pos word		in(IN) cooperation(NN)	1	0	0	1
+reveal	SOLUTION		reveal(VB)	2	2	28	0
