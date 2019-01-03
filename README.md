@@ -23,7 +23,7 @@ using the best NN model.
 best_model directory contains the best NN model.
 
 data directory contains all data files that are needed for running the Python scripts.
-(You need to download a zip file from ... and unzip it in top level directory)
+(You need to download a zip file from https://skr1.nlm.nih.gov/citationsentiment/download.html and unzip it in top level directory)
 
 lib directory contains third-party libraries required by the system (see Note
 regarding Stanford Core NLP below.)
