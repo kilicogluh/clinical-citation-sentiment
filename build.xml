@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<project name="clinical-citation-sentiment" default="main" basedir=".">
+  <!-- Sets variables which can later be used. -->
+  <!-- The value of a property is accessed via ${} -->
+  <property name="src.dir" location="src" />
+  <property name="build.dir" location="classes" />
+  <property name="dist.dir" location="dist" />
+  <property name="docs.dir" location="docs" />
+
+
+  <path id="class-path">
+<!--  	<pathelement location="classes"/> -->
+    <pathelement location="lib/bioscores-2.0.1.jar"/>
+    <pathelement location="lib/liblinear-1.7-with-deps.jar"/>	
+    <pathelement location="lib/ml.jar"/>  
+    <pathelement location="lib/util.jar"/> 
+    <pathelement location="lib/xom.jar"/>
+    <pathelement location="lib/stanford-corenlp-3.3.1.jar"/> 	
+  </path>
+        	
+  <!-- Deletes the existing build, docs and dist directory-->
+  <target name="clean">
+    <delete dir="${build.dir}" />
+    <delete dir="${docs.dir}" />
+    <delete dir="${dist.dir}" />
+  </target>
+
+  <!-- Creates the  build, docs and dist directory-->
+  <target name="makedir" >
+    <mkdir dir="${build.dir}" />
+    <mkdir dir="${docs.dir}" />
+    <mkdir dir="${dist.dir}" />
+  </target>
+
+  <!-- Compiles the java code (including the usage of library for JUnit -->
+	
+  <target name="prepare">
+	<mkdir dir="${build.dir}" />
+  </target>		
+	
+		
+  <target name="compile" depends="prepare">
+		<javac srcdir="${src.dir}" destdir="${build.dir}" debug="true" includeantruntime="false" debuglevel="lines,vars,source">
+			<classpath refid="class-path"></classpath>
+		</javac>
+  </target>	
+	
+	<target name="jar" depends="compile">
+		<jar destfile="${dist.dir}/citationsentiment.jar">
+			<manifest>
+			</manifest>
+			<fileset dir="${build.dir}" includes="gov/nih/nlm/citationsentiment/" />
+		</jar>
+		
+	  </target>	
+
+
+	
+  <target name="main" depends="clean, makedir, compile, jar">
+    <description>Main target</description>
+  </target>
+
+</project> 

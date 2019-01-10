@@ -10,6 +10,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -31,7 +32,6 @@ import gov.nih.nlm.ling.sem.Sense;
 import gov.nih.nlm.ling.sem.Term;
 import gov.nih.nlm.ling.util.FileUtils;
 import gov.nih.nlm.ling.wrappers.CoreNLPWrapper;
-import gov.nih.nlm.util.Log;
 
 /**
  * Class to compute citation sentiment.
@@ -41,7 +41,7 @@ import gov.nih.nlm.util.Log;
  */
 
 public class RuleBasedSentiment {
-	private static final Log log = new Log(RuleBasedSentiment.class);
+	private static Logger log = Logger.getLogger(RuleBasedSentiment.class.getName());	
 
 	public static RuleBasedSentiment instance; 
 

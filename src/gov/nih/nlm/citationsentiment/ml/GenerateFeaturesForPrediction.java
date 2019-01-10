@@ -14,6 +14,7 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.logging.Logger;
 
 import gov.nih.nlm.citationsentiment.CitationMention;
 import gov.nih.nlm.citationsentiment.RuleBasedSentiment;
@@ -28,7 +29,6 @@ import gov.nih.nlm.ml.feature.DoubleFeature;
 import gov.nih.nlm.ml.feature.Feature;
 import gov.nih.nlm.ml.feature.FloatFeature;
 import gov.nih.nlm.ml.feature.StringDoubleMapFeature;
-import gov.nih.nlm.util.Log;
 import gov.nih.nlm.util.Pair;
 import liblinear.FeatureNode;
 
@@ -39,7 +39,7 @@ import liblinear.FeatureNode;
  *
  */
 public class GenerateFeaturesForPrediction {
-	private static final Log log = new Log(GenerateFeaturesForPrediction.class);
+	private static Logger log = Logger.getLogger(GenerateFeaturesForPrediction.class.getName());	
 
 	private static Map<Integer,String> featureIDs = new TreeMap<Integer,String>();
 	private static Map<String,Integer> rFeatureIDs = new TreeMap<String,Integer>();
@@ -365,8 +365,8 @@ public class GenerateFeaturesForPrediction {
 			}
 		}
 		if (featureNodes.isEmpty()) {
-			log.warningOnce("No features for sample");
-			log.finest("Sample: {0}", sample);
+			log.warning("No features for sample");
+			log.finest("Sample: " + sample);
 		}
 		/*    for (FeatureNode fn: featureNodes) {
 System.out.println("FEature:" + fn.index + "|" + featureIDs.get(fn.index) + "|" +  fn.value);
@@ -380,7 +380,7 @@ System.out.println("FEature:" + fn.index + "|" + featureIDs.get(fn.index) + "|" 
 			if (indexes.add(featureNode.index) == false) {
 				log.severe("Found duplicate index!  Features:");
 				for (final Feature<CitationMention,?> feature : features) {
-					log.warning("  {0}", feature.getName());
+					log.warning("  " + feature.getName());
 				}
 			}
 		}

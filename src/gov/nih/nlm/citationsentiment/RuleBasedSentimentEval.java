@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
+import java.util.logging.Logger;
 
 import gov.nih.nlm.ling.core.Document;
 import gov.nih.nlm.ling.core.SurfaceElement;
@@ -20,7 +21,6 @@ import gov.nih.nlm.ling.io.XMLReader;
 import gov.nih.nlm.ling.sem.Predicate;
 import gov.nih.nlm.ling.sem.SemanticItem;
 import gov.nih.nlm.ling.util.FileUtils;
-import gov.nih.nlm.util.Log;
 
 /**
  * Class to evaluate the rule-based sentiment citation analysis program. 
@@ -29,7 +29,7 @@ import gov.nih.nlm.util.Log;
  *
  */
 public class RuleBasedSentimentEval {
-	private static final Log log = new Log(RuleBasedSentimentEval.class);
+	private static Logger log = Logger.getLogger(RuleBasedSentimentEval.class.getName());	
 
 	private RuleBasedSentiment instance; 
 

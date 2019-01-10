@@ -11,6 +11,7 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 import java.util.TreeSet;
+import java.util.logging.Logger;
 
 import gov.nih.nlm.citationsentiment.CitationMention;
 import gov.nih.nlm.citationsentiment.RuleBasedSentiment;
@@ -29,12 +30,11 @@ import gov.nih.nlm.ml.feature.Feature;
 import gov.nih.nlm.ml.feature.FeatureSet;
 import gov.nih.nlm.ml.feature.StringFeature;
 import gov.nih.nlm.ml.feature.StringSetFeature;
-import gov.nih.nlm.util.Log;
 import gov.nih.nlm.util.Strings;
 import liblinear.FeatureNode;
 
 public class Features<T extends CitationMention> extends FeatureSet<T> {
-	private static final Log log = new Log(Features.class);
+	private static Logger log = Logger.getLogger(Features.class.getName());	
 	
 	private  Map<String,String> usedTerms = null;
 	
