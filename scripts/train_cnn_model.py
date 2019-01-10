@@ -1,6 +1,5 @@
 import os, sys, time, random, re, json, collections
 import sklearn.metrics
-import pandas as pd
 import numpy as np
 import tensorflow as tf
 import cPickle
