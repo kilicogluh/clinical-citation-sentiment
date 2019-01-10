@@ -42,7 +42,7 @@ All Python scripts should be run in the top level directory.
   python scripts/predict.py test.txt nn_predict_results.txt
 ```
 
-- Prediction can be also be performed with the rule-based method, which has overall a lower performance. The input and output arguments are the same as above. The output should match `test.out`. 
+Prediction can be also be performed with the rule-based method, which has overall a lower performance. The input and output arguments are the same as above. The output should match `test.out`. 
 
 ```  
   scripts/ruleBasedPrediction.sh test.txt rule_predict_results.txt
