@@ -10,5 +10,5 @@ do
   export CLASSPATH=$CLASSPATH:lib/$file
 done
 
-java -Djava.util.logging.config.file=logging.properties gov.nih.nlm.citationsentiment.RuleBasedSentiment test.txt test.out
+java -Djava.util.logging.config.file=logging.properties gov.nih.nlm.citationsentiment.RuleBasedSentiment $1 $2
 
