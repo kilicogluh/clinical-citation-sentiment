@@ -7,16 +7,11 @@ This repository contains source code and models related to the manuscript entitl
 - Python 2.7
 - TensorFlow 1.10.1
 
-For predicy script, you will need:
-- numpy 1.14.5 or newer
-- sklearn 0.20.0 or newer
-- cPickle 1.71 or newer
-
-For generalization test and train neural network script, you will need:
-- numpy 1.14.5 or newer
-- sklearn 0.20.0 or newer
-- cPickle 1.71 or newer
-- gensim 3.6.0 or newer
+To run python scripts, you will need:
+- numpy 1.14.5
+- sklearn 0.20.0
+- cPickle 1.71
+- gensim 3.6.0
 
 ## Directory Structure
 
