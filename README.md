@@ -12,13 +12,7 @@ For predicy script, you will need:
 - sklearn 0.20.0 or newer
 - cPickle 1.71 or newer
 
-For generalization test script, you will need:
-- numpy 1.14.5 or newer
-- sklearn 0.20.0 or newer
-- cPickle 1.71 or newer
-- gensim 3.6.0 or newer
-
-For training neural network script, you will need:
+For generalization test and train neural network script, you will need:
 - numpy 1.14.5 or newer
 - sklearn 0.20.0 or newer
 - cPickle 1.71 or newer
