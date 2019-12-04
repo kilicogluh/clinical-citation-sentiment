@@ -27,7 +27,7 @@ To run python scripts, you will need:
 
 `best_model` directory contains the best NN model.
 
-`data` directory contains all data files that are needed for running the Python scripts. (You need to download the compressed data file from <https://skr3.nlm.nih.gov/citationsentiment/data.zip> and unzip it in top level directory)
+`data` directory contains all data files that are needed for running the Python scripts. (You need to download the compressed data file from <https://uofi.app.box.com/file/531591391064> and unzip it in top level directory)
 
 The top level directory contains properties file used by the package, as well as test files.
 
@@ -63,7 +63,6 @@ not included with the distribution due to its size. It can be downloaded from <h
 
 ## Contact
 
-- Halil Kilicoglu:      [kilicogluh@mail.nih.gov](mailto:kilicogluh@mail.nih.gov)
-- Zeshan Peng:			[zeshan.peng@nih.gov](mailto:zeshan.peng@nih.gov)
+- Halil Kilicoglu:      [halil@illinois.edu](mailto:halil@illinois.edu)
 
 
