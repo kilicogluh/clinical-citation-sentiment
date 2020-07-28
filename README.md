@@ -27,7 +27,7 @@ To run python scripts, you will need:
 
 `best_model` directory contains the best NN model.
 
-`data` directory contains all data files that are needed for running the Python scripts. (You need to download the compressed data file from <https://uofi.app.box.com/file/531591391064> and unzip it in top level directory)
+`data` directory contains all data files that are needed for running the Python scripts. (You need to download the compressed data file from <https://uofi.box.com/s/mffn2h6a0vh24futhynmoleelyjkcze9> and unzip it in top level directory)
 
 The top level directory contains properties file used by the package, as well as test files.
 
