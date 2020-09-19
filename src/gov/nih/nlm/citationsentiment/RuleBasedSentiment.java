@@ -14,6 +14,9 @@ import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import edu.stanford.nlp.ling.CoreAnnotations.SentencesAnnotation;
+import edu.stanford.nlp.pipeline.Annotation;
+import edu.stanford.nlp.util.CoreMap;
 import gov.nih.nlm.ling.core.ContiguousLexeme;
 import gov.nih.nlm.ling.core.Document;
 import gov.nih.nlm.ling.core.MultiWordLexeme;
@@ -21,6 +24,7 @@ import gov.nih.nlm.ling.core.Sentence;
 import gov.nih.nlm.ling.core.Span;
 import gov.nih.nlm.ling.core.SpanList;
 import gov.nih.nlm.ling.core.SurfaceElement;
+import gov.nih.nlm.ling.core.Word;
 import gov.nih.nlm.ling.core.WordLexeme;
 import gov.nih.nlm.ling.process.ComponentLoader;
 import gov.nih.nlm.ling.process.SentenceSegmenter;
@@ -212,13 +216,42 @@ public class RuleBasedSentiment {
 		return doc;
 	}
 	
+	
+	public static void coreNLP(Sentence sent) {
+		if (sent.getText().trim().equals("")) {
+			return;
+		}
+		Annotation annotation = CoreNLPWrapper.coreNLP(sent.getText(), true);
+	    List<CoreMap> sentenceAnns = annotation.get(SentencesAnnotation.class);  
+	    if (sentenceAnns == null || sentenceAnns.size() == 0) {
+	    	log.warning("No sentence annotations were generated. Skipping coreNLP..");
+	    	return;
+	    }
+	    List<Word> words = new ArrayList<>();
+//	    List<SynDependency> depList = new ArrayList<>();
+	    for (int i=0; i < sentenceAnns.size(); i++) {
+	    if (sentenceAnns.size() == 1) {
+	    	CoreMap sentAnn = sentenceAnns.get(0);
+	    	words = CoreNLPWrapper.getSentenceWords(sentAnn,sent.getSpan().getBegin());
+	    	sent.setWords(words);
+	    	for (Word w : words) w.setSentence(sent);
+//	    	sent.setTree(getSentenceTree(sentAnn));
+//	    	depList = getSentenceDependencies(sentAnn,words);
+//	    	sent.setDependencyList(depList); 
+	    	sent.setSurfaceElements(new ArrayList<SurfaceElement>(words));
+//	    	sent.setEmbeddings(new ArrayList<SynDependency>(depList));
+	    } 
+	    }
+	}
+	
 	public Document  preProcessString(String id, String input,Properties props)  {
 		Document doc = null;
 		try {
 			SentenceSegmenter segmenter = ComponentLoader.getSentenceSegmenter(props);
 			CoreNLPWrapper.getInstance(props);
 			LinkedHashMap<String,SpanList> citSpans = identifyCitationSpans(input);
-			String textOnly =input.replaceAll("<(.+?)>", "").trim();
+//			String textOnly =input.replaceAll("<(.+?)>", "").trim();
+			String textOnly =input.replaceAll("<cit(.+?)>", "").replaceAll("</cit>","").trim();
 			doc = new Document(id,textOnly);
 			CitationFactory sf = new CitationFactory(doc,new HashMap<>());
 			doc.setSemanticItemFactory(sf);
@@ -229,13 +262,15 @@ public class RuleBasedSentiment {
 				Sentence sent = doc.getSentences().get(i);
 				sent.setDocument(doc);
 				// create word list, pos, lemma info
-				CoreNLPWrapper.coreNLP(sent);
+				coreNLP(sent);	
 			}
 
+			int i= 0;
 			for (String st: citSpans.keySet()) {
 				SpanList sp = citSpans.get(st);
 				CitationMention m = sf.newCitationMention(doc, "CitationMention", sp, sp, doc.getText().substring(sp.getBegin(), sp.getEnd()));
 				m.setContext(Arrays.asList(doc.getSubsumingSentence(sp.asSingleSpan()).getSpan()));
+				i++;
 				m.setId(st);
 			}
 			annotateTerms(doc,props);
