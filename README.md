@@ -1,6 +1,6 @@
 # clinical-citation-sentiment
 This repository contains source code and models related to the publication:
-- Kilicoglu H, Peng Z, Tafreshi S, Tran T, Rosemblat G, Schneider J. Confirm or refute?: A comparative study on citation sentiment classification in clinical research publications. Journal of biomedical informatics. 2019;91:103123. (<https://doi.org/10.1016/j.jbi.2019.103123>) 
+- Kilicoglu H, Peng Z, Tafreshi S, Tran T, Rosemblat G, Schneider J. *Confirm or refute?: A comparative study on citation sentiment classification in clinical research publications*. Journal of biomedical informatics. 2019;91:103123. (<https://doi.org/10.1016/j.jbi.2019.103123>) 
 
 ## Prerequisites
 
